@@ -1,12 +1,12 @@
 README.md
 
-Painel de Desempenho de Equipe - Power BI
+## Painel de Desempenho de Equipe - Power BI
 
 Visão Geral do Projeto
 
 Este projeto transforma dados brutos de uma empresa fictícia em um painel de controle interativo e estratégico usando o Power BI. O objetivo principal é fornecer uma visão clara e detalhada do desempenho da equipe, da produtividade e da estrutura organizacional, facilitando a tomada de decisões baseadas em dados.
 
-Fontes de Dados
+## Fontes de Dados
 
 O projeto utilizou seis tabelas como fontes de dados, cada uma representando uma parte da organização:
 
@@ -22,7 +22,7 @@ O projeto utilizou seis tabelas como fontes de dados, cada uma representando uma
 
     project: Dados sobre os projetos.
 
-Etapas de Transformação (Power Query)
+## Etapas de Transformação (Power Query)
 
 Para preparar os dados para análise, as seguintes transformações foram realizadas:
 
@@ -34,7 +34,7 @@ Para preparar os dados para análise, as seguintes transformações foram realiz
 
     Remoção de Colunas: Colunas que não seriam usadas no relatório final, como Address e Bdate da tabela employee, foram removidas para simplificar o modelo.
 
-Modelo de Dados (Power BI)
+## Modelo de Dados (Power BI)
 
 As tabelas foram relacionadas para criar um modelo de dados coerente, permitindo que as visualizações interajam dinamicamente. As relações foram estabelecidas com base nas chaves primárias e estrangeiras:
 
@@ -50,7 +50,7 @@ As tabelas foram relacionadas para criar um modelo de dados coerente, permitindo
 
     Relação de Hierarquia: A tabela employee foi relacionada a si mesma (Chaves: Ssn e Manager) para mapear a hierarquia de gerência.
 
-Visualizações e Análise do Dashboard
+## Visualizações e Análise do Dashboard
 
 O Painel de Desempenho de Equipe foi projetado com as seguintes visualizações para fornecer insights acionáveis:
 
@@ -62,6 +62,12 @@ O Painel de Desempenho de Equipe foi projetado com as seguintes visualizações 
 
     Análise Geográfica: Um Gráfico de Mapa que localiza os departamentos, fornecendo uma perspectiva geográfica das operações.
 
-Conclusão
+## Conclusão
 
 Este projeto demonstra a capacidade de transformar dados brutos em inteligência de negócio. O dashboard Painel de Desempenho de Equipe é uma ferramenta poderosa para a gestão de pessoal e operações, permitindo que os líderes tomem decisões estratégicas com base em dados precisos e visualmente claros.
+---
+## 📈 Visual do Dashboard
+Exemplo de visualização do dashboard:  
+
+![Dashboard](https://github.com/jessica-re88/Dashboard-Desempenho-de-Equipe/blob/main/Dashboard.png)
+---
